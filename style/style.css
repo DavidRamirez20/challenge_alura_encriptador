@@ -1,0 +1,22 @@
+body {
+   background-color: #D8DFE8;
+}
+
+.contenido {
+   display: flex;
+}
+
+.contenido_aplicacion {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+}
+
+.contenido_aplicacion_img {
+   width: 31px;
+   height: 48px;
+}
+
+.contenido_texto {
+   width: 40%;
+}
