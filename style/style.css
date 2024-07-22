@@ -1,22 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+   font-family: 'Inter', sans-serif;
+}
+
 body {
-   background-color: #D8DFE8;
+   background-color: #F3F5FC;
 }
 
 .contenido {
    display: flex;
 }
 
+.contenido_aplicacion_img {
+   width: 31px;
+   height: 48px;
+   padding: 2% 0 0 5%;
+   margin: 0 0 2% 0;
+}
+
 .contenido_aplicacion {
    display: flex;
    flex-direction: column;
    width: 60%;
+   align-items: center;
 }
 
-.contenido_aplicacion_img {
-   width: 31px;
-   height: 48px;
+.contenido_aplicacion_texto {
+   width: 577px;
+   height: 300px;
+   color: #0A3871;
+   border: none;
+   background-color: #F3F5FC;
+   font-size: 24px;
+   margin: 5% 0 2% 10%;
+}
+
+.contenido_aplicacion_alerta {
+   display: flex;
+   align-items: center;
+   width: 570px;
+}
+
+.contenido_aplicacion_alerta_texto {
+   font-size: 12px;
+   margin-left: 1%;
+}
+
+.contenido_aplicacion_botones {
+   display: flex;
+   width: 680px;
+   margin: 2% 0 2% 10%;
+   justify-content: space-around;
+}
+
+.contenido_aplicacion_boton_enc {
+   width: 328px;
+   background-color: #0A3871;
+   color: #FFFFFF;
+   padding: 20px;
+   border-radius: 24px;
+   border: 1px solid #0A3871;
+}
+
+.contenido_aplicacion_boton_enc:hover {
+   background-color: #356EA9;
+   cursor: pointer;
+}
+
+.contenido_aplicacion_boton_des {
+   width: 328px;
+   background-color: #D8DFE8;
+   color: #0A3871;
+   padding: 20px;
+   border-radius: 24px;
+   border: 1px solid #0A3871;
+}
+
+.contenido_aplicacion_boton_des:hover {
+   background-color: #FFFFFF;
+   color: #0A3871;
+   cursor: pointer;
 }
 
 .contenido_texto {
    width: 40%;
+   display: flex;
+   justify-content: center;
+}
+
+.contenido_texto_contenedor {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 32px 32px;
+   background-color: #FFFFFF;
+   width: 400px;
+   height: auto;
+   border: 1px solid #FFFFFF;
+   border-radius: 32px;
+   gap: 25px;
+   box-shadow: 0px 3px px #CED4DA; 
+}
+
+.contenido_texto_img {
+   width: 336px;
+   height: 304px;
+}
+
+.contenido_texto_texto1 {
+   font-size: 24px;
+   font-weight: bold;
+   color: #0A3871;
+}
+
+.contenido_texto_texto1 {
+   font-size: 16px;
+}
+
+.contenido_texto_boton {
+   width: 336px;
+   border: 1px solid #0A3871;
+   border-radius: 24px;
+   padding: 20px;
+   background-color: #FFFFFF;
+   margin-top: 10%;
+   
+}
+
+.contenido_texto_boton:hover {
+   background-color: #D8DFE8;
+   cursor: pointer;
 }
